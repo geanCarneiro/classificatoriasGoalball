@@ -1,0 +1,104 @@
+[
+    {
+        "id":"Feminino",
+        "chaves": [
+            {
+                "id":"A",
+                "equipes": [
+                    {
+                        "nome": "ADEVIBEL",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "APADV",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "RDM",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "ADEVIRN",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"B",
+                "equipes": [
+                    {
+                        "nome": "ICEMAT",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "LMC",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "IRM",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "IVOS",
+                        "pontuacao":0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"Masculino",
+        "chaves": [
+            {
+                "id":"A",
+                "equipes": [
+                    {
+                        "nome": "RDM",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "APADV",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "FUNAD",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "ARDV",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "LMC",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"B",
+                "equipes": [
+                    {
+                        "nome": "CEIBC",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "ACERGS",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "ADEVIBEL",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "APEC",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "ADEVIRN",
+                        "pontuacao":0
+                    }
+                ]
+            }
+        ]
+    }
+]

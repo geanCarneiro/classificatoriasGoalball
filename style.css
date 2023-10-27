@@ -1,0 +1,9 @@
+table {
+    border-collapse: collapse;
+    margin: 1rem;
+}
+table > tr > th, table > tr > td{
+    border: 0.15rem solid black;
+    padding: 0.5rem;
+    width: 5rem;
+}

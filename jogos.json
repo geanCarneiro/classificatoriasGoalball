@@ -1,0 +1,26 @@
+[
+    {
+        "data":"24/10/2023",
+        "jogos": [
+            {
+                "horario":"09:00",
+                "chave":"A",
+                "categoria": "Masculino",
+                "equipeA": 0,
+                "equipeB": 4,
+                "golsA": 6,
+                "golsB": 15
+            },
+            {
+                "horario":"09:50",
+                "chave":"A",
+                "categoria": "Masculino",
+                "equipeA": 1,
+                "equipeB": 3,
+                "golsA": 3,
+                "golsB": 13
+            }
+        ]
+        
+    }
+]

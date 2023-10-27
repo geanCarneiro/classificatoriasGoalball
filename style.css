@@ -6,4 +6,10 @@ table > tr > th, table > tr > td{
     border: 0.15rem solid black;
     padding: 0.5rem;
     width: 5rem;
+    text-align: center;
+}
+
+div#tabelaJogos > table > tr > th, div#tabelaJogos > table > tr > td {
+    width: unset;
+    min-width: 2rem;
 }

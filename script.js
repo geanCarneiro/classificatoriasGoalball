@@ -2,8 +2,63 @@ import times from './times.json' assert { type: 'json'}
 import jogos from './jogos.json' assert { type: 'json'}
 
 document.body.onload = function() {
+    processarJogos();
     carregarJogos();
     carregarPontuacao();
+}
+
+function processarJogos(){
+    let hoje = new Date();
+    let jogosRealizados = jogos.filter(jogo => {
+        let dataJogo = dataToDate(jogo.data);
+
+        return hoje >= dataJogo;
+    })
+
+    jogosRealizados.forEach(dia => {
+        if(hoje == dataToDate(dia.data)) {
+            let JogosTerminadosNoDia = dia.jogos.filter(jogo => {
+                let horarioInfos = jogo.horario.split(':')
+                let horarioDate = dataToDate(dia.data);
+                horarioDate.setHours(Number(horarioInfos[0]), Number(horarioInfos[1]))
+
+                return horarioDate < hoje
+            })
+
+            JogosTerminadosNoDia.forEach(jogo => processarJogo(jogo))
+        } else {
+            dia.jogos.forEach(jogo => processarJogo(jogo));
+        }
+    })
+
+    
+}
+
+function processarJogo(jogo){
+    let timeA = getTime(jogo.categoria, jogo.chave, jogo.equipeA);
+    let timeB = getTime(jogo.categoria, jogo.chave, jogo.equipeB);
+
+    if(timeA == null || timeB == null) return;
+
+    // equipe A ganhou
+    if(jogo.golsA > jogo.golsB) 
+        timeA.pontuacao += (jogo.golsA - jogo.golsB >= 10) ? 3 : 2;
+    // equipe B ganhou
+    else if(jogo.golsB > jogo.golsA)
+        timeB.pontuacao += (jogo.golsB - jogo.golsA >= 10) ? 3 : 2;
+    // deu empate
+    else if(jogo.golsA == jogo.golsB) {
+        timeA.pontuacao += 1;
+        timeB.pontuacao += 1;
+    }
+    
+}
+
+function dataToDate(data) {
+    let dataInfos = data.split('/')
+    let newDate = new Date();
+    newDate.setFullYear(dataInfos[2], dataInfos[1]-1, dataInfos[0])
+    return newDate
 }
 
 function carregarPontuacao(){
@@ -102,7 +157,7 @@ function carregarJogos(){
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
-            coluna.textContent = getTime(jogo.categoria, jogo.chave, jogo.equipeA);
+            coluna.textContent = getTimeName(jogo.categoria, jogo.chave, jogo.equipeA);
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
@@ -118,7 +173,7 @@ function carregarJogos(){
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
-            coluna.textContent = getTime(jogo.categoria, jogo.chave, jogo.equipeB);
+            coluna.textContent = getTimeName(jogo.categoria, jogo.chave, jogo.equipeB);
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
@@ -143,8 +198,15 @@ function getTime(_categoria, _chave, index){
         let chaveEncontrados = timesEncontrados[0].chaves.filter(chave => chave.id == _chave)
 
         if(chaveEncontrados.length > 0 && index < chaveEncontrados[0].equipes.length){
-            return chaveEncontrados[0].equipes[index].nome;
+            return chaveEncontrados[0].equipes[index];
         }
     }
-    return "time não encontrado";
+    return null;
+}
+
+function getTimeName(_categoria, _chave, index){
+    
+    let time = getTime(_categoria, _chave, index);
+
+    return time == null ? "time não encontrado" : time.nome;
 }

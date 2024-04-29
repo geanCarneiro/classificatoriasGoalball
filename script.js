@@ -161,7 +161,8 @@ function carregarJogos(){
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
-            coluna.textContent = jogo.golsA > -1? jogo.golsA : " ";
+            if(jogo.golsA > -1) coluna.ariaLabel = jogo.golsA + ' gols'
+            coluna.textContent = jogo.golsA > -1? jogo.golsA : "-";
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
@@ -169,7 +170,8 @@ function carregarJogos(){
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");
-            coluna.textContent = jogo.golsB > -1? jogo.golsB : " ";
+            if(jogo.golsB > -1) coluna.ariaLabel = jogo.golsB + ' gols'
+            coluna.textContent = jogo.golsB > -1? jogo.golsB : "-";
             linha.appendChild(coluna);
 
             coluna = document.createElement("td");

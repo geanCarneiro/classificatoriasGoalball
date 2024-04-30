@@ -22,7 +22,7 @@ function processarJogos(){
                 let horarioDate = dataToDate(dia.data);
                 horarioDate.setHours(Number(horarioInfos[0]), Number(horarioInfos[1]))
 
-                return horarioDate < hoje
+                return hoje.getHours() - horarioDate.getHours() > 0
             })
 
             JogosTerminadosNoDia.forEach(jogo => processarJogo(jogo))

@@ -6,19 +6,15 @@
                 "id":"A",
                 "equipes": [
                     {
-                        "nome": "ADEVIBEL",
+                        "nome": "IBC",
                         "pontuacao":0
                     },
                     {
-                        "nome": "APADV",
+                        "nome": "IVOS",
                         "pontuacao":0
                     },
                     {
-                        "nome": "RDM",
-                        "pontuacao":0
-                    },
-                    {
-                        "nome": "ADEVIRN",
+                        "nome": "ADEVIUDI",
                         "pontuacao":0
                     }
                 ]
@@ -27,19 +23,15 @@
                 "id":"B",
                 "equipes": [
                     {
-                        "nome": "ICEMAT",
+                        "nome": "ADEVIBEL",
                         "pontuacao":0
                     },
                     {
-                        "nome": "LMC",
+                        "nome": "APAE LEOPOLDINA",
                         "pontuacao":0
                     },
                     {
-                        "nome": "IRM",
-                        "pontuacao":0
-                    },
-                    {
-                        "nome": "IVOS",
+                        "nome": "APEBH",
                         "pontuacao":0
                     }
                 ]
@@ -53,23 +45,19 @@
                 "id":"A",
                 "equipes": [
                     {
-                        "nome": "RDM",
+                        "nome": "URECE",
                         "pontuacao":0
                     },
                     {
-                        "nome": "APADV",
+                        "nome": "ICBC",
                         "pontuacao":0
                     },
                     {
-                        "nome": "FUNAD",
+                        "nome": "ADEVIUDI",
                         "pontuacao":0
                     },
                     {
-                        "nome": "ARDV",
-                        "pontuacao":0
-                    },
-                    {
-                        "nome": "LMC",
+                        "nome": "AAIJFR",
                         "pontuacao":0
                     }
                 ]
@@ -78,23 +66,48 @@
                 "id":"B",
                 "equipes": [
                     {
-                        "nome": "CEIBC",
-                        "pontuacao":0
-                    },
-                    {
-                        "nome": "ACERGS",
-                        "pontuacao":0
-                    },
-                    {
                         "nome": "ADEVIBEL",
                         "pontuacao":0
                     },
                     {
-                        "nome": "APEC",
+                        "nome": "APAE LEOPOLDINA",
                         "pontuacao":0
                     },
                     {
-                        "nome": "ADEVIRN",
+                        "nome": "IVOS",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "IBC",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "ADVERJ",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"C",
+                "equipes": [
+                    { 
+                        "nome": "CIDEP",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "ADEVITRIM",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "ADEVITA",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "SASJO",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "APEBH",
                         "pontuacao":0
                     }
                 ]

@@ -1,207 +1,266 @@
-[
-    {
-        "data":"30/04/2024",
-        "jogos": [
-            {
-                "horario":"08:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 0,
-                "equipeB": 4,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"09:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 1,
-                "equipeB": 3,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"10:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 0,
-                "equipeB": 4,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"11:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 1,
-                "equipeB": 3,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"12:30",
-                "chave":"A",
-                "categoria": "Masculino",
-                "equipeA": 0,
-                "equipeB": 3,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"13:30",
-                "chave":"A",
-                "categoria": "Masculino",
-                "equipeA": 1,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"14:30",
-                "chave":"A",
-                "categoria": "Feminino",
-                "equipeA": 0,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"15:30",
-                "chave":"B",
-                "categoria": "Feminino",
-                "equipeA": 0,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"16:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 0,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"17:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 4,
-                "equipeB": 3,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"18:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 0,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"19:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 4,
-                "equipeB": 3,
-                "golsA": 0,
-                "golsB": 0
-            }
-        ]
-        
-    },{
-        "data":"01/05/2024",
-        "jogos": [
-            {
-                "horario":"08:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 4,
-                "equipeB": 1,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"09:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 3,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"10:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 4,
-                "equipeB": 1,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"11:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 3,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"12:30",
-                "chave":"A",
-                "categoria": "Masculino",
-                "equipeA": 0,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"13:30",
-                "chave":"A",
-                "categoria": "Masculino",
-                "equipeA": 1,
-                "equipeB": 3,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"14:30",
-                "chave":"A",
-                "categoria": "Feminino",
-                "equipeA": 1,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"15:30",
-                "chave":"B",
-                "categoria": "Feminino",
-                "equipeA": 1,
-                "equipeB": 2,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"16:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 3,
-                "equipeB": 0,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"17:30",
-                "chave":"B",
-                "categoria": "Masculino",
-                "equipeA": 2,
-                "equipeB": 1,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"18:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 3,
-                "equipeB": 0,
-                "golsA": 0,
-                "golsB": 0
-            },{
-                "horario":"19:30",
-                "chave":"C",
-                "categoria": "Masculino",
-                "equipeA": 2,
-                "equipeB": 1,
-                "golsA": 0,
-                "golsB": 0
-            }
-        ]
-        
-    }
-]
+[ {
+  "data" : "30/04/2024",
+  "jogos" : [ {
+    "horario" : "08:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 4,
+    "golsA" : 11,
+    "golsB" : 1
+  }, {
+    "horario" : "09:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 1,
+    "equipeB" : 3,
+    "golsA" : 10,
+    "golsB" : 10
+  }, {
+    "horario" : "10:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 4,
+    "golsA" : 13,
+    "golsB" : 10
+  }, {
+    "horario" : "11:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 1,
+    "equipeB" : 3,
+    "golsA" : 12,
+    "golsB" : 2
+  }, {
+    "horario" : "12:30",
+    "chave" : "A",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 3,
+    "golsA" : 11,
+    "golsB" : 1
+  }, {
+    "horario" : "13:30",
+    "chave" : "A",
+    "categoria" : "Masculino",
+    "equipeA" : 1,
+    "equipeB" : 2,
+    "golsA" : 11,
+    "golsB" : 1
+  }, {
+    "horario" : "14:30",
+    "chave" : "A",
+    "categoria" : "Feminino",
+    "equipeA" : 0,
+    "equipeB" : 2,
+    "golsA" : 9,
+    "golsB" : 2
+  }, {
+    "horario" : "15:30",
+    "chave" : "B",
+    "categoria" : "Feminino",
+    "equipeA" : 0,
+    "equipeB" : 2,
+    "golsA" : 10,
+    "golsB" : 0
+  }, {
+    "horario" : "16:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 2,
+    "golsA" : 15,
+    "golsB" : 5
+  }, {
+    "horario" : "17:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 4,
+    "equipeB" : 3,
+    "golsA" : 0,
+    "golsB" : 10
+  }, {
+    "horario" : "18:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 2,
+    "golsA" : 12,
+    "golsB" : 2
+  }, {
+    "horario" : "19:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 4,
+    "equipeB" : 3,
+    "golsA" : 12,
+    "golsB" : 2
+  } ]
+}, {
+  "data" : "01/05/2024",
+  "jogos" : [ {
+    "horario" : "08:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 4,
+    "equipeB" : 1,
+    "golsA" : 2,
+    "golsB" : 12
+  }, {
+    "horario" : "09:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 3,
+    "equipeB" : 2,
+    "golsA" : 11,
+    "golsB" : 1
+  }, {
+    "horario" : "10:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 4,
+    "equipeB" : 1,
+    "golsA" : 11,
+    "golsB" : 5
+  }, {
+    "horario" : "11:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 3,
+    "equipeB" : 2,
+    "golsA" : 19,
+    "golsB" : 15
+  }, {
+    "horario" : "12:30",
+    "chave" : "A",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 2,
+    "golsA" : 10,
+    "golsB" : 0
+  }, {
+    "horario" : "13:30",
+    "chave" : "A",
+    "categoria" : "Masculino",
+    "equipeA" : 1,
+    "equipeB" : 3,
+    "golsA" : 13,
+    "golsB" : 14
+  }, {
+    "horario" : "14:30",
+    "chave" : "A",
+    "categoria" : "Feminino",
+    "equipeA" : 1,
+    "equipeB" : 2,
+    "golsA" : 7,
+    "golsB" : 6
+  }, {
+    "horario" : "15:30",
+    "chave" : "B",
+    "categoria" : "Feminino",
+    "equipeA" : 1,
+    "equipeB" : 2,
+    "golsA" : 13,
+    "golsB" : 3
+  }, {
+    "horario" : "16:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 3,
+    "equipeB" : 0,
+    "golsA" : 3,
+    "golsB" : 6
+  }, {
+    "horario" : "17:30",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 2,
+    "equipeB" : 1,
+    "golsA" : 7,
+    "golsB" : 17
+  }, {
+    "horario" : "18:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 3,
+    "equipeB" : 0,
+    "golsA" : 2,
+    "golsB" : 12
+  }, {
+    "horario" : "19:30",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 2,
+    "equipeB" : 1,
+    "golsA" : 1,
+    "golsB" : 11
+  } ]
+}, {
+  "data" : "02/05/2024",
+  "jogos" : [ {
+    "horario" : "09:00",
+    "chave" : "A",
+    "categoria" : "Masculino",
+    "equipeA" : 2,
+    "equipeB" : 3,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "10:00",
+    "chave" : "A",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "11:00",
+    "chave" : "A",
+    "categoria" : "Feminino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "12:00",
+    "chave" : "B",
+    "categoria" : "Feminino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "13:00",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 2,
+    "equipeB" : 4,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "14:00",
+    "chave" : "B",
+    "categoria" : "Masculino",
+    "equipeA" : 1,
+    "equipeB" : 0,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "15:00",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 2,
+    "equipeB" : 4,
+    "golsA" : 0,
+    "golsB" : 0
+  }, {
+    "horario" : "16:00",
+    "chave" : "C",
+    "categoria" : "Masculino",
+    "equipeA" : 1,
+    "equipeB" : 0,
+    "golsA" : 0,
+    "golsB" : 0
+  } ]
+} ]

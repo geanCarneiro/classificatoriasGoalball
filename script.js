@@ -1,5 +1,5 @@
-import times from './times.json' assert { type: 'json'}
-import jogos from './jogos.json' assert { type: 'json'}
+import times from './times.json' with { type: 'json'}
+import jogos from './jogos.json' with { type: 'json'}
 
 document.body.onload = function() {
     processarJogos();
@@ -9,26 +9,17 @@ document.body.onload = function() {
 
 function processarJogos(){
     let hoje = new Date();
-    let jogosRealizados = jogos.filter(jogo => {
+    jogos.filter(jogo => {
         let dataJogo = dataToDate(jogo.data);
 
         return hoje >= dataJogo;
-    })
-
-    jogosRealizados.forEach(dia => {
-        if(hoje == dataToDate(dia.data)) {
-            let JogosTerminadosNoDia = dia.jogos.filter(jogo => {
-                let horarioInfos = jogo.horario.split(':')
-                let horarioDate = dataToDate(dia.data);
-                horarioDate.setHours(Number(horarioInfos[0]), Number(horarioInfos[1]))
-
-                return hoje.getHours() - horarioDate.getHours() > 0
-            })
-
-            JogosTerminadosNoDia.forEach(jogo => processarJogo(jogo))
-        } else {
-            dia.jogos.forEach(jogo => processarJogo(jogo));
-        }
+    }).forEach(dia => {
+        dia.jogos.filter(jogo => {
+            let horarioJogo = dataToDate(dia.data);
+            let horaInfo = jogo.horario.split(':');
+            horarioJogo.setHours(Number(horaInfo[0])+1, Number(horaInfo[1]))
+            return horarioJogo < hoje
+        }).forEach(jogo => processarJogo(jogo))
     })
 
     
@@ -89,7 +80,7 @@ function carregarPontuacao(){
 
             tabela.appendChild(linha);
 
-            chave.equipes.forEach(equipe => {
+            chave.equipes.sort((a, b) => b.pontuacao - a.pontuacao).forEach(equipe => {
                 linha = document.createElement("tr");
                 coluna = document.createElement("td");
                 coluna.textContent = equipe.nome;

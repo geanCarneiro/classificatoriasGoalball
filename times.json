@@ -35,6 +35,32 @@
                         "pontuacao":0
                     }
                 ]
+            },
+            {
+                "id":"Semi 1",
+                "equipes": [
+                    {
+                        "nome": "IBC",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "APAE LEOPOLDINA",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"Semi 2",
+                "equipes": [
+                    {
+                        "nome": "ADEVIBEL",
+                        "pontuacao":0
+                    },
+                    {
+                        "nome": "IVOS",
+                        "pontuacao":0
+                    }
+                ]
             }
         ]
     },
@@ -108,6 +134,58 @@
                     },
                     { 
                         "nome": "APEBH",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"QF1",
+                "equipes": [
+                    { 
+                        "nome": "URECE",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "ADEVITRIM",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"QF2",
+                "equipes": [
+                    { 
+                        "nome": "ADEVIBEL",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "AAIJFR",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"QF3",
+                "equipes": [
+                    { 
+                        "nome": "CIDEP",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "APAE LEOPOLDINA",
+                        "pontuacao":0
+                    }
+                ]
+            },
+            {
+                "id":"QF4",
+                "equipes": [
+                    { 
+                        "nome": "APEBH",
+                        "pontuacao":0
+                    },
+                    { 
+                        "nome": "IBC",
                         "pontuacao":0
                     }
                 ]

@@ -204,63 +204,114 @@
     "categoria" : "Masculino",
     "equipeA" : 2,
     "equipeB" : 3,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 13,
+    "golsB" : 23
   }, {
     "horario" : "10:00",
     "chave" : "A",
     "categoria" : "Masculino",
     "equipeA" : 0,
     "equipeB" : 1,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 170,
+    "golsB" : 10
   }, {
     "horario" : "11:00",
     "chave" : "A",
     "categoria" : "Feminino",
     "equipeA" : 0,
     "equipeB" : 1,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 11,
+    "golsB" : 6
   }, {
     "horario" : "12:00",
     "chave" : "B",
     "categoria" : "Feminino",
     "equipeA" : 0,
     "equipeB" : 1,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 11,
+    "golsB" : 3
   }, {
     "horario" : "13:00",
     "chave" : "B",
     "categoria" : "Masculino",
     "equipeA" : 2,
     "equipeB" : 4,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 14,
+    "golsB" : 4
   }, {
     "horario" : "14:00",
     "chave" : "B",
     "categoria" : "Masculino",
     "equipeA" : 1,
     "equipeB" : 0,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 5,
+    "golsB" : 8
   }, {
     "horario" : "15:00",
     "chave" : "C",
     "categoria" : "Masculino",
     "equipeA" : 2,
     "equipeB" : 4,
-    "golsA" : 0,
-    "golsB" : 0
+    "golsA" : 5,
+    "golsB" : 15
   }, {
     "horario" : "16:00",
     "chave" : "C",
     "categoria" : "Masculino",
     "equipeA" : 1,
     "equipeB" : 0,
+    "golsA" : 8,
+    "golsB" : 15
+  } ]
+}, {
+  "data" : "03/05/2024",
+  "jogos" : [ {
+    "horario" : "08:30",
+    "chave" : "QF1",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  },{
+    "horario" : "09:30",
+    "chave" : "QF2",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  },{
+    "horario" : "10:30",
+    "chave" : "QF3",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  },{
+    "horario" : "11:30",
+    "chave" : "QF4",
+    "categoria" : "Masculino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  },{
+    "horario" : "14:30",
+    "chave" : "Semi 1",
+    "categoria" : "Feminino",
+    "equipeA" : 0,
+    "equipeB" : 1,
+    "golsA" : 0,
+    "golsB" : 0
+  },{
+    "horario" : "15:30",
+    "chave" : "Semi 2",
+    "categoria" : "Feminino",
+    "equipeA" : 0,
+    "equipeB" : 1,
     "golsA" : 0,
     "golsB" : 0
   } ]
-} ]
+}  ]

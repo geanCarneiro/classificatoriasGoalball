@@ -60,7 +60,7 @@ function carregarPontuacao(){
         titulo.textContent = genero.id;
         pontuacaoDiv.append(titulo);
         
-        genero.chaves.forEach(chave => {
+        genero.chaves.filter(chave => chave.id.length < 2 ).forEach(chave => {
             let tabela = document.createElement("table");
             let linha = document.createElement("tr");
             let coluna = document.createElement("th");
